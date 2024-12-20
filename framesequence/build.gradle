@@ -1,0 +1,12 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'android.support.rastermill'
+    compileSdk 35
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+        }
+    }
+}
