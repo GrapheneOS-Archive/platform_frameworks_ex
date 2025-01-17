@@ -4,6 +4,10 @@ android {
     namespace "com.android.common"
     compileSdk 35
 
+    defaultConfig {
+        minSdk 35
+    }
+
     sourceSets {
         main {
             java.srcDirs = ['java']
