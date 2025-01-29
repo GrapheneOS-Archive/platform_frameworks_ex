@@ -1,5 +1,7 @@
 apply plugin: 'android-library'
 
+layout.setBuildDirectory("$projectDir/gradle-build")
+
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
